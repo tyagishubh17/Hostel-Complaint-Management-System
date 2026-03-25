@@ -1,0 +1,15 @@
+# Compiled class files
+*.class
+out/
+
+# Application Data (Do not commit user details and complaints)
+users.txt
+complaints.txt
+deleted_complaints/
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+*.swp
+.DS_Store
