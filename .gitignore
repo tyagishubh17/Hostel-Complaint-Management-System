@@ -2,7 +2,7 @@
 *.class
 out/
 
-# Application Data (Do not commit user details and complaints)
+# Application Data
 users.txt
 complaints.txt
 deleted_complaints/
