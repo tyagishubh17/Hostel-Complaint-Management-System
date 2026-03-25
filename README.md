@@ -14,14 +14,14 @@ Hostel students regularly face issues like Broken fans, Water supply failures, o
 
 ## ✨ Features
 
-- 🔐 **Student Registration & Login** — Secure account creation with username/password
-- 🛡️ **Admin Login** — Hardcoded admin credentials for controlled access
-- 📝 **Submit Complaints** — Students submit issues with priority (Low / Medium / High)
-- 🆔 **Unique Complaint IDs** — Auto-generated IDs (e.g., C001, C002) for every complaint
-- 📋 **View Complaints** — Students see only their own, while Admin sees all
-- 🔄 **Status Tracking** — Three states: `Pending` → `In Progress` → `Resolved`
-- 🗑️ **Soft Delete with 7-Day Retention** — Complaints deleted (by admin) are archived for 7 days before permanent removal, stored in txt format under <br>`deleted_complaints` folder
-- 💾 **File-Based Persistence** — All data saved to `complaints.txt` and `users.txt`
+-  **Student Registration & Login** — Secure account creation with username/password
+-  **Admin Login** — Hardcoded admin credentials for controlled access
+-  **Submit Complaints** — Students submit issues with priority (Low / Medium / High)
+-  **Unique Complaint IDs** — Auto-generated IDs (e.g., C001, C002) for every complaint
+-  **View Complaints** — Students see only their own, while Admin sees all
+-  **Status Tracking** — Three states: `Pending` → `In Progress` → `Resolved`
+-  **Soft Delete with 7-Day Retention** — Complaints deleted (by admin) are archived for 7 days before permanent removal, stored in txt format under <br>`deleted_complaints` folder
+-  **File-Based Persistence** — All data saved to `complaints.txt` and `users.txt`
 
 ---
 
@@ -60,7 +60,7 @@ Hostel students regularly face issues like Broken fans, Water supply failures, o
    java -cp out hcms.Main
    ```
 
-> ✅ The `complaints.txt` and `users.txt` files will be created automatically in the project root on first run.
+> The `complaints.txt` and `users.txt` files will be created automatically in the project root on first run.
 
 ---
 
